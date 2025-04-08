@@ -1,0 +1,30 @@
+cd OneDrive
+cd Desktop
+cd web3
+env1\scripts\activate
+python -m venv env1
+env1\scripts\activate
+git clone https://github.com/vishal-hub659/time_table.git
+mkdir slot
+cd slot
+django-admin startproject vishal
+pip install django
+django-admin startproject vishal
+cd vishal
+python manage.py startapp slotapp
+cd.
+cd..
+code .
+cd vishal
+python manage.py runserver 8000
+cd..
+git add -A
+git init
+git add -A
+git config user.name"vishal07__"
+git config user.name "vishal07__"
+git config user.email "vishalsenthil02@gmail.com"
+git commit -m "Success"
+git push https://github.com/vishal-hub659/time_table.git
+ git fetch origin main:tmp
+doskey /history > history.txt
