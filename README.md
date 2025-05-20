@@ -1,5 +1,5 @@
 # Ex03 Time Table
-# Date:21.04.2025
+# Date:28.11.2024
 # AIM
 To write a html webpage page to display your slot timetable.
 
@@ -25,134 +25,129 @@ Execute the program using runserver command.
 # PROGRAM
 ```
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <center>
-        <img src="aswin/timeapp/static/sec-logo-01as.jpg" height="100" ; width="540">
-    </center>
+    <title>Timetable</title>
     <style>
-        table {
-            border: 3px solid black;
-            width: 80%;
-            height: 100px;
-            border-collapse: collapse;
-            margin: 3px;
-            margin-left: auto;
-            margin-right: auto;
+        body {
+             font-family:Arial, 
+ sans-serif;
+             background-color:
+ #f8f9fa;
+             margin: 0;
+             padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #343a40;
+        }
 
+        table {
+            border-collapse:
+  collapse;
+            margin: 20px auto;
+            background-color:
+  #fff;
+            border: 2px solid
+  #dee2e6;
+            box-shadow: 0 2px 4px
+ rgba(0, 0, 0, 0.1);
         }
 
         th,
         td {
-            border: 5px solid black;
-            padding: 20px;
-            text-align: center;
-        }
+            border: 1px solid
+  #dee2e6;
+             padding: 10px;
+             text-align: center; 
+            }
 
-        tr {
-            background-color: blue;
-        }
+            th{
+                background-color:
+  #f8f9fa;
+            }
 
-        tr :nth-child(1) {
-            background-color: red;
-        }
+            .special {
+                background-color:
+   #f0f0f0;
+            }
+        </style>
+      </head>
 
-        th {
-            background-color: pink;
-        }
-    </style>
+      <body>
+          <h1>time table</h1>
+          <table>
+    
+   <tr>
+    <th>Days/Time</th>
+    <th> 8-10 </th>
+    <th> 10-12 </th>
+    <th> 12-1 </th>
+    <th> 1-3 </th>
+    <th> 3-5 </th>
+   </tr>
 
-</head>
+   <tr>
+     <th>Monday</th>
+     <td></td>
+     <td>Web</td>
+     <td>Break</td>
+     <td>French</td>
+     <td></td>
+    </tr>
 
-<body>
-    <table>
+    <tr>
+      <th>Tuesday</th>
+      <td></td>
+      <td>Physics</td>
+      <td>Break</td>
+      <td>Python</td>
+      <td></td>
+     </tr>
+
+     <tr>
+        <th>Wednesday</th>
+        <td>Python</td>
+        <td></td>
+        <td>Break</td>
+        <td>Mentor meeting</td>
+        <td>Chemistry</td>
+       </tr> 
+
+       <tr>
+         <th>Thursday</th>
+         <td>French</td>
+         <td>Python</td>
+         <td>Break</td>
+         <td>Web</td>
+         <td></td>
+        </tr>
+
         <tr>
-            <th>Time</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
+           <th>Friday</th> 
+           <td>Physics</td>
+           <td></td>
+           <td>Break</td>
+           <td>Yoga</td>
+           <td></td>
+          </tr>
+
+          <tr>
             <th>Saturday</th>
-        </tr>
-        <tr>
-            <td>8-10</td>
-            <td colspan="6" ;align="center">Free Slot</td>
-        </tr>
-        <tr>
-            <td>10-12</td>
-            <td>Statistics</td>
-            <td>CN</td>
-            <td>Digital</td>
-            <td>Probability</td>
-            <td>CN</td>
-            <td>Probability</td>
-        </tr>
-        <tr>
-            <td>1-3</td>
-            <td>OS</td>
+            <td>French</td>
+            <td>Python</td>
+            <td>Break</td>
+            <td>Chemistry</td>
             <td>Web</td>
-            <td>Mentor Meet</td>
-            <td>Statistics</td>
-            <td>Web</td>
-            <td>Free Slot</td>
-        </tr>
-        <tr>
-            <td>3-5</td>
-            <td colspan="3" ;align="center">Free Slot</td>
-            <td>OS</td>
-            <td>Digital</td>
-            <td>Free Slot</td>
-        </tr>
+           </tr> 
     </table>
-    <table>
-        <tr>
-            <th>S.NO</th>
-            <th>Subject Code</th>
-            <th>Subject Name</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>19CY405</td>
-            <td>Operating System</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>19MA211</td>
-            <td>Statistics and Numerical Methods</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>19MA222</td>
-            <td>Probability and Queueing Models</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>19AI414</td>
-            <td>Fundamentals of Web Application Development</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>19EE404</td>
-            <td>Digital Electronics</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>19CS406</td>
-            <td>Computer Network</td>
-        </tr>
 
-    </table>
 </body>
-
 </html>
-
 ```
 # OUTPUT
-![alt text](<Screenshot 2025-04-01 153259.png>)
+![Screenshot 2024-11-28 143305](https://github.com/user-attachments/assets/99de5a13-ce96-4234-8a00-d410f1f69b06)
+
 # RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
